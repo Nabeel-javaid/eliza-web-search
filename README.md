@@ -3,8 +3,8 @@
 </h1>
 
 <div align="center">
-  
-![License](https://img.shields.io/badge/license-MIT-737CA1?style=flat-square) 
+
+![License](https://img.shields.io/badge/license-MIT-737CA1?style=flat-square)
 ![Node_Badge](https://img.shields.io/badge/node-14.16.1-green?style=flat-square)
 ![Npm_Badge](https://img.shields.io/badge/npm-6.14.12-yellow?style=flat-square)
 ![React Badge](https://img.shields.io/badge/React-17.0.2-45b8d8?style=flat-square)
@@ -68,81 +68,9 @@ This project was developed with the following technologies:
 
 #### **Backend** <sub><sup>Express</sup></sub>
   - [Express](https://expressjs.com/pt-br/)
- 
+
 #### **Blockchain and Smart Contracts** <sub><sup>Solidity</sup></sub>
   - [Solidity](https://docs.soliditylang.org/)
   - [Truffle](https://www.trufflesuite.com/)
   - [Ganache](https://www.trufflesuite.com/ganache)
 
-
-<a id='how-to-use'/>
-
-## :joystick: How to Use
-
-### Requirements
-
-To run the application you'll need:
-* [Git](https://git-scm.com)
-* [Node](https://nodejs.org/)
-* [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
-* [Truffle](https://www.trufflesuite.com/)
-* [Ganache](https://www.trufflesuite.com/ganache)
-* Clone the repository:
-  * ```$ git clone https://github.com/BravoNatalie/NFT-Marketplace.git ```
-
-
-Now go to project folder and run:
-
-
-```bash
-$ cd NFT-Marketplace
-
-# install the dependencies
-$ yarn
-
-# run ganache
-$ ganache-cli
-
-# deploy de contracts on the blockchain
-$ truffle migrate
-
-# run the client-side
-$ cd client
-$ yarn
-$ yarn start
-
-# run the backend
-$ cd backend
-$ yarn
-$ yarn start
-```
-
-<a id='todo'/>
-
-## :page_with_curl: TODO
-
-There are some things to be done in the project:
-  - State persistence;
-  - Revise front-end call to the buy and sell functions on the blockchain;
-  - Error handling;
-  - NFT cards to reflect the true information of price coming from the blockchain.
-
-<a id='license'/>
-
-## :page_with_curl: License
-
-This project is under the **MIT license**. See the [LICENSE](https://github.com/BravoNatalie/NFT-Marketplace/blob/master/LICENSE) for more information.
-
-
-## :mailbox_with_mail: Get in touch!
-
-<p align="center">
-<a href="https://www.linkedin.com/in/nataliebravo/" target="_blank" >
-  <img alt="Linkedin - Natalie Bravo" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a>
-<a href="mailto:natalie.bravo@ice.ufjf.br" target="_blank" >
-  <img alt="Email - Natalie Bravo" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
-</a> 
-<br/>
-  Made with :coffee: and ❤️ by <b>Natalie Bravo</b>.
-<p/>
