@@ -1,150 +1,148 @@
-# Eliza 🤖
+<h1 align=center>
+<img src="https://res.cloudinary.com/nataliebravo/image/upload/v1630406853/NFT/banner_npzzzz.png" />
+</h1>
 
 <div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+  
+![License](https://img.shields.io/badge/license-MIT-737CA1?style=flat-square) 
+![Node_Badge](https://img.shields.io/badge/node-14.16.1-green?style=flat-square)
+![Npm_Badge](https://img.shields.io/badge/npm-6.14.12-yellow?style=flat-square)
+![React Badge](https://img.shields.io/badge/React-17.0.2-45b8d8?style=flat-square)
+![Solidity_Badge](https://img.shields.io/badge/Solidity-%5E8.0.0-363636?style=flat-square)
+![Truffle](https://img.shields.io/badge/Truffle-5.3.14-F0E8E0?style=flat-square)
+[![Made by NatalieBravo](https://img.shields.io/badge/made%20by-NatalieBravo-blueviolet?style=flat-square)](https://www.linkedin.com/in/nataliebravo/)
 </div>
 
-<div align="center">
+# Summary
 
-📖 [Documentation](https://elizaos.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
+- [About](#about)
+- [Preview](#preview)
+- [Architecture and Client-side Flow](#architecture)
+- [Built with](#technologies)
+- [How to Use](#how-to-use)
+- [TODO](#todo)
+- [License](#license)
 
-</div>
+<a id='about'/>
 
-## 🌍 README Translations
+## :information_source: About
 
-[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md) | [Tiếng Việt](./README_VI.md) | [עִברִית](https://github.com/elizaos/Elisa/blob/main/README_HE.md) | [Tagalog](./README_TG.md) | [Polski](./README_PL.md) | [Arabic](./README_AR.md) | [Hungarian](./README_HU.md) | [Srpski](./README_RS.md)
+Galerie is a NFT Marketplace that enables the creation, sale, and purchase of digital art as NFTs.
 
-## 🚩 Overview
 
-<div align="center">
-  <img src="./docs/static/img/eliza_diagram.jpg" alt="Eliza Diagram" width="100%" />
-</div>
+<a id='preview'/>
 
-## ✨ Features
+## :framed_picture: Preview
 
-- 🛠️ Full-featured Discord, Twitter and Telegram connectors
-- 🔗 Support for every model (Llama, Grok, OpenAI, Anthropic, etc.)
-- 👥 Multi-agent and room support
-- 📚 Easily ingest and interact with your documents
-- 💾 Retrievable memory and document store
-- 🚀 Highly extensible - create your own actions and clients
-- ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
-- 📦 Just works!
+Check out how it looks:
 
-## Video Tutorials
+<p align="center">
+ <img alt="Homepage print"   src="https://res.cloudinary.com/nataliebravo/image/upload/v1630412771/NFT/galerie-homepage_kznhvx.png" >
+<p />
 
-[AI Agent Dev School](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
+<a id='architecture' />
 
-## 🎯 Use Cases
+## :information_source: Architecture and Client-side Flow
 
-- 🤖 Chatbots
-- 🕵️ Autonomous Agents
-- 📈 Business Process Handling
-- 🎮 Video Game NPCs
-- 🧠 Trading
+<p align="center">
+  <img alt="Client-Flow"src="https://res.cloudinary.com/nataliebravo/image/upload/v1626701427/NFT/client-side-flow_iqhq9a.png">
+<p />
 
-## 🚀 Quick Start
+<p align="center">
+  <img alt="Architecture"src="https://res.cloudinary.com/nataliebravo/image/upload/v1626701440/NFT/arquitechure_hunzuw.png">
+<p />
 
-### Prerequisites
 
-- [Python 2.7+](https://www.python.org/downloads/)
-- [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- [pnpm](https://pnpm.io/installation)
+<a id='technologies'/>
 
-> **Note for Windows Users:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) is required.
+## :gear: Built With
 
-### Use the Starter (Recommended)
+This project was developed with the following technologies:
 
-```bash
-git clone https://github.com/elizaos/eliza-starter.git
-cd eliza-starter
-cp .env.example .env
-pnpm i && pnpm build && pnpm start
-```
+#### **Frontend** <sub><sup>React + JavaScript</sup></sub>
+  - [React](https://pt-br.reactjs.org/)
+  - [Axios](https://github.com/axios/axios)
+  - [Redux](https://redux.js.org/)
+  - [Web3.js](https://web3js.readthedocs.io/en/v1.3.4/)
+  - [Material UI](https://material-ui.com/pt/)
 
-Once the agent is running, you should see the message to run "pnpm start:client" at the end.
-Open another terminal and move to same directory and then run below command and follow the URL to chat to your agent.
+#### **Backend** <sub><sup>Express</sup></sub>
+  - [Express](https://expressjs.com/pt-br/)
+ 
+#### **Blockchain and Smart Contracts** <sub><sup>Solidity</sup></sub>
+  - [Solidity](https://docs.soliditylang.org/)
+  - [Truffle](https://www.trufflesuite.com/)
+  - [Ganache](https://www.trufflesuite.com/ganache)
 
-```bash
-pnpm start:client
-```
 
-Then read the [Documentation](https://elizaos.github.io/eliza/) to learn how to customize your Eliza.
+<a id='how-to-use'/>
 
-### Manually Start Eliza (Only recommended if you know what you are doing)
+## :joystick: How to Use
 
-```bash
-# Clone the repository
-git clone https://github.com/elizaos/eliza.git
+### Requirements
 
-# Checkout the latest release
-# This project iterates fast, so we recommend checking out the latest release
-git checkout $(git describe --tags --abbrev=0)
-```
+To run the application you'll need:
+* [Git](https://git-scm.com)
+* [Node](https://nodejs.org/)
+* [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+* [Truffle](https://www.trufflesuite.com/)
+* [Ganache](https://www.trufflesuite.com/ganache)
+* Clone the repository:
+  * ```$ git clone https://github.com/BravoNatalie/NFT-Marketplace.git ```
 
-### Start Eliza with Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/elizaos/eliza/tree/main)
+Now go to project folder and run:
 
-### Edit the .env file
-
-Copy .env.example to .env and fill in the appropriate values.
-
-```
-cp .env.example .env
-```
-
-Note: .env is optional. If you're planning to run multiple distinct agents, you can pass secrets through the character JSON
-Note: .env is optional. If you're planning to run multiple distinct agents, you can pass secrets through the character JSON
-
-### Automatically Start Eliza
-
-This will run everything to set up the project and start the bot with the default character.
 
 ```bash
-sh scripts/start.sh
+$ cd NFT-Marketplace
+
+# install the dependencies
+$ yarn
+
+# run ganache
+$ ganache-cli
+
+# deploy de contracts on the blockchain
+$ truffle migrate
+
+# run the client-side
+$ cd client
+$ yarn
+$ yarn start
+
+# run the backend
+$ cd backend
+$ yarn
+$ yarn start
 ```
 
-### Edit the character file
+<a id='todo'/>
 
-1. Open `packages/core/src/defaultCharacter.ts` to modify the default character. Uncomment and edit.
+## :page_with_curl: TODO
 
-2. To load custom characters:
-    - Use `pnpm start --characters="path/to/your/character.json"`
-    - Multiple character files can be loaded simultaneously
-3. Connect with X (Twitter)
-    - change `"clients": []` to `"clients": ["twitter"]` in the character file to connect with X
+There are some things to be done in the project:
+  - State persistence;
+  - Revise front-end call to the buy and sell functions on the blockchain;
+  - Error handling;
+  - NFT cards to reflect the true information of price coming from the blockchain.
 
-### Manually Start Eliza
+<a id='license'/>
 
-```bash
-pnpm i
-pnpm build
-pnpm start
+## :page_with_curl: License
 
-# The project iterates fast, sometimes you need to clean the project if you are coming back to the project
-pnpm clean
-```
+This project is under the **MIT license**. See the [LICENSE](https://github.com/BravoNatalie/NFT-Marketplace/blob/master/LICENSE) for more information.
 
-#### Additional Requirements
 
-You may need to install Sharp. If you see an error when starting up, try installing it with the following command:
+## :mailbox_with_mail: Get in touch!
 
-```
-pnpm install --include=optional sharp
-```
-
-### Community & contact
-
-- [GitHub Issues](https://github.com/elizaos/eliza/issues). Best for: bugs you encounter using Eliza, and feature proposals.
-- [Discord](https://discord.gg/ai16z). Best for: sharing your applications and hanging out with the community.
-
-## Contributors
-
-<a href="https://github.com/elizaos/eliza/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elizaos/eliza" />
+<p align="center">
+<a href="https://www.linkedin.com/in/nataliebravo/" target="_blank" >
+  <img alt="Linkedin - Natalie Bravo" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
 </a>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=elizaos/eliza&type=Date)](https://star-history.com/#elizaos/eliza&Date)
+<a href="mailto:natalie.bravo@ice.ufjf.br" target="_blank" >
+  <img alt="Email - Natalie Bravo" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+</a> 
+<br/>
+  Made with :coffee: and ❤️ by <b>Natalie Bravo</b>.
+<p/>

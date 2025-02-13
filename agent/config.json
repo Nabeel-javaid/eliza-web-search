@@ -1,8 +1,0 @@
-{
-    "plugins": {
-        "web_search": {
-            "enabled": true,
-            "provider": "tavily"
-        }
-    }
-}
